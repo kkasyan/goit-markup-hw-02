@@ -102,6 +102,7 @@ li {
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .section-btn:hover,
@@ -220,6 +221,7 @@ li {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
