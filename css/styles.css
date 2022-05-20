@@ -35,18 +35,21 @@ li {
   font-weight: 700;
   letter-spacing: 0.03em;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 
 .logo-accent {
   color: var(--accent-color);
 }
 
-.header-item > a {
+.header-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header-item-link {
   text-decoration: none;
   color: inherit;
 }
@@ -59,7 +62,7 @@ li {
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--paragraph-text-color);
   text-decoration: none;
@@ -131,7 +134,8 @@ li {
 }
 
 .qualities-list-item {
-  line-height: 0.87px;
+  line-height: 1.17;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
